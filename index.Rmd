@@ -12,10 +12,10 @@ github-repo: rstudio/bookdown-demo
 description: "Code examples from Models for Ecological Data"
 ---
 
-## Usage 
+## Usage
 
-See chapters at [built website](https://jsta.github.io/clark2007)
+See chapters
 
 ## Contributing 
 
-Contributions are welcome. Edit the appropriate Rmd files. They are build by travis upon commit.
+Contributions are welcome. Edit the appropriate Rmd files. They are built by travis upon commit.
