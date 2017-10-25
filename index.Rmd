@@ -8,11 +8,11 @@ documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: jsta/clark2007
 description: "Code examples from Models for Ecological Data"
 ---
 
-## Usage
+# Usage
 
 See chapters
 
