@@ -5,28 +5,17 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "Code examples from Models for Ecological Data"
 ---
 
-See chapters
+## Usage 
 
-For now, you have to install the development versions of **bookdown** from Github:
+See chapters at [built website](https://jsta.github.io/clark2007)
 
-```{r eval=FALSE}
-devtools::install_github("rstudio/bookdown")
-```
+## Contributing 
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
-
-To compile this example to PDF, you need to install XeLaTeX.
-
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+Contributions are welcome. Edit the appropriate Rmd files. They are build by travis upon commit.
